@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    
+}
+
+.hero, footer{
+    background: #1F2937;
+    color: #F9FAF8;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.hero ul {
+    list-style: none;
+}
