@@ -5,7 +5,7 @@
     
 }
 
-.hero, footer{
+.hero, footer, .main-top{
     background: #1F2937;
     color: #F9FAF8;
 }
@@ -16,4 +16,20 @@
 
 .hero ul {
     list-style: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-top {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    padding: 50px;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: column;
+    flex: 1;
 }
