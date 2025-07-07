@@ -77,3 +77,35 @@ button {
     display: flex;
     flex-direction: column;
 }
+
+.main {
+    height: 500px;
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-grow: 1;
+}
+
+.cards-title {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.cards {
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.cards div {
+    width: 100px;
+    height: 100px;
+    border:1px solid #3882f6;
+}
+
+.cards p {
+    text-align: center;
+}
