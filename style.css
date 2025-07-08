@@ -11,7 +11,7 @@
     width: 100%;
 }
 
-.main-top, footer, .main, .logo-link-bar {
+.main-top, footer, .main, .logo-link-bar, .quote-section {
     padding: 30px 150px 30px 150px;
 }
 
@@ -42,6 +42,10 @@
     padding: 0 5px 0 5px;
 }
 
+.links li a:visited {
+    color: white;
+}
+
 .main-top {
     display: flex;
     height: 200px;
@@ -49,8 +53,8 @@
     flex-grow: 1;
 }
 
-.main-top-text * {
-    padding: 10px 0 10px 0;
+.main-top-text p {
+    padding-bottom: 5px;
 }
 
 button {
@@ -65,7 +69,6 @@ button {
 
 .image {
     display: flex;
-    margin: auto;
     width: 50%;
     height: 100%;
     background-color: gray;
@@ -79,7 +82,7 @@ button {
 }
 
 .main {
-    height: 500px;
+
     padding: 10px 0 10px 0;
     display: flex;
     flex-grow: 1;
@@ -89,23 +92,46 @@ button {
     height: 75px;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
-    margin-top: 15px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
 }
 
-.cards {
-    padding: 10px 0 10px 0;
+.cards-section {
+    padding: 20px 0 100px 0;
+    width: 100%;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+}
+
+.card div {
+    border:3px solid #3882f6;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
     text-align: center;
 }
 
-.cards div {
-    width: 100px;
-    height: 100px;
-    border:1px solid #3882f6;
+.card p {
+    text-align: center;
 }
 
-.cards p {
-    text-align: center;
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #E5E7EB;
+    Font-size: 18px;
 }
