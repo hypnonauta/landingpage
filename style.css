@@ -11,7 +11,11 @@
     width: 100%;
 }
 
-.main-top, footer, .main, .logo-link-bar, .quote-section {
+/*.main-top, footer, .main, .logo-link-bar, .quote-section,  {
+    padding: 30px 150px 30px 150px;
+}*/
+
+.section, footer{
     padding: 30px 150px 30px 150px;
 }
 
@@ -134,4 +138,35 @@ button {
     justify-content: center;
     background: #E5E7EB;
     Font-size: 18px;
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    flex: 1;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+button.signup {
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
 }
